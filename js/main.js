@@ -1,3 +1,12 @@
+$(document).ready(function () {
+    // 初期状態でhelloを非表示に設定
+    $("#hello").hide();
+  
+    // ボタンがクリックされたときの動作
+$("#btn").on("click", function () {
+    // helloを表示
+    $("#hello").show();
+
 // コーチを選ぶボタンがクリックされたときの動作設定
 $("#btn").on("click", function () {
     
